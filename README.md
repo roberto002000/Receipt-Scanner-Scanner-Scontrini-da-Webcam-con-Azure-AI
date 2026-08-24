@@ -1,4 +1,4 @@
-# 🧾 Receipt Scanner — Scanner Scontrini da Webcam con Azure AI
+# Receipt Scanner — Scanner Scontrini da Webcam con Azure AI
 
 ## 📖 Descrizione
 
