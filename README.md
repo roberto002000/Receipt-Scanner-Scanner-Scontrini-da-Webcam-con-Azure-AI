@@ -1,18 +1,16 @@
 # 🧾 Receipt Scanner — Scanner Scontrini da Webcam con Azure AI
 
-Uno script Python che trasforma la webcam in uno scanner di scontrini: inquadra, scatta, e lascia che **Azure AI Document Intelligence** estragga automaticamente i prodotti acquistati.📸
-
 ## 📖 Descrizione
 
 Il programma apre uno stream video dalla webcam con un riquadro guida a schermo per posizionare correttamente lo scontrino. Con un tasto lo scatta e lo ritaglia, poi invia l'immagine al modello preaddestrato `prebuilt-receipt` di Azure Document Intelligence, che riconosce ed estrae la lista dei prodotti acquistati, stampandoli a schermo.
 
 ## ✨ Funzionalità
 
-- 🎥 Acquisizione live da webcam con riquadro guida per l'inquadratura
-- ✂️ Ritaglio automatico dell'area dello scontrino al momento dello scatto
-- 💾 Salvataggio dell'immagine scattata su disco
-- 🤖 Riconoscimento automatico dei prodotti tramite Azure AI Document Intelligence (modello `prebuilt-receipt`)
-- 🖨️ Stampa a schermo dei prodotti trovati
+-  Acquisizione live da webcam con riquadro guida per l'inquadratura
+-  Ritaglio automatico dell'area dello scontrino al momento dello scatto
+-  Salvataggio dell'immagine scattata su disco
+-  Riconoscimento automatico dei prodotti tramite Azure AI Document Intelligence (modello `prebuilt-receipt`)
+-  Stampa a schermo dei prodotti trovati
 
 ## 🗂️ Struttura del progetto
 
@@ -59,7 +57,3 @@ Inquadra lo scontrino all'interno del riquadro mostrato a schermo, poi:
 - premi **Q** per uscire senza scattare
 
 I prodotti riconosciuti verranno stampati direttamente nel terminale.
-
-## 📄 Licenza
-
-Questo progetto è rilasciato sotto licenza MIT. Sentiti libero di modificarla in base alle tue esigenze. 🎉
