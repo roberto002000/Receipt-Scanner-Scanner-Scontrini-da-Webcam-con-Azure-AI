@@ -23,7 +23,6 @@ Il programma apre uno stream video dalla webcam con un riquadro guida a schermo 
 ## 🧰 Requisiti
 
 - Python 3.9+
-- Una webcam funzionante
 - Una risorsa **Azure AI Document Intelligence** (ex Form Recognizer)
 
 ## ⚙️ Installazione
