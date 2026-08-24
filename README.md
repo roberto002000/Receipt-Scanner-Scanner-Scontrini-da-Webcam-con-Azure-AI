@@ -1,6 +1,6 @@
 # Receipt Scanner da Webcam con Azure AI
 
-## 📖 Descrizione
+## Descrizione
 
 Il programma apre uno stream video dalla webcam con un riquadro guida a schermo per posizionare correttamente lo scontrino. Con un tasto lo scatta e lo ritaglia, poi invia l'immagine al modello preaddestrato `prebuilt-receipt` di Azure Document Intelligence, che riconosce ed estrae la lista dei prodotti acquistati, stampandoli a schermo.
 
