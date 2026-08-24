@@ -1,10 +1,10 @@
-# Receipt Scanner — Scanner Scontrini da Webcam con Azure AI
+# Receipt Scanner da Webcam con Azure AI
 
 ## 📖 Descrizione
 
 Il programma apre uno stream video dalla webcam con un riquadro guida a schermo per posizionare correttamente lo scontrino. Con un tasto lo scatta e lo ritaglia, poi invia l'immagine al modello preaddestrato `prebuilt-receipt` di Azure Document Intelligence, che riconosce ed estrae la lista dei prodotti acquistati, stampandoli a schermo.
 
-## ✨ Funzionalità
+## Funzionalità
 
 -  Acquisizione live da webcam con riquadro guida per l'inquadratura
 -  Ritaglio automatico dell'area dello scontrino al momento dello scatto
@@ -12,7 +12,7 @@ Il programma apre uno stream video dalla webcam con un riquadro guida a schermo 
 -  Riconoscimento automatico dei prodotti tramite Azure AI Document Intelligence (modello `prebuilt-receipt`)
 -  Stampa a schermo dei prodotti trovati
 
-## 🗂️ Struttura del progetto
+## Struttura del progetto
 
 ```
 .
@@ -20,12 +20,12 @@ Il programma apre uno stream video dalla webcam con un riquadro guida a schermo 
 └── requirements.txt
 ```
 
-## 🧰 Requisiti
+## Requisiti
 
 - Python 3.9+
 - Una risorsa **Azure AI Document Intelligence** (ex Form Recognizer)
 
-## ⚙️ Installazione
+## Installazione
 
 ```bash
 git clone https://github.com/<tuo-username>/<nome-repo>.git
@@ -35,7 +35,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 🔑 Configurazione
+## Configurazione
 
 Crea un file `.env` nella root del progetto con le seguenti variabili:
 
@@ -44,7 +44,7 @@ AZ_ENDPOINT=https://<il-tuo-endpoint>.cognitiveservices.azure.com
 AZ_KEY=la-tua-chiave
 ```
 
-## ▶️ Utilizzo
+## Utilizzo
 
 ```bash
 python receipt_scanner.py
